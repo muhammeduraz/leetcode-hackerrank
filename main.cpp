@@ -1,17 +1,19 @@
 #include <iostream>
 
-#include "Problems/IsPalindrome.h"
+#include "Problems/Pow.h"
 
 int main()
 {
-    int input;
-    std::cin >> input;
+    while (true)
+    {
+        double x;
+        int n;
 
-    bool isPal = isPalindrome(input);
-    if (isPal)
-        std::cout << "true";
-    else
-        std::cout << "false";
+        scanf("%lf %d", &x, &n);
+
+        double res = myPow(x, n);
+        printf("%lf", res);
+    }
 
     return 0;
 }

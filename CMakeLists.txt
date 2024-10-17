@@ -16,4 +16,4 @@ add_executable(LeetCode main.cpp
         Problems/Length_of_Last_Word.h
         Problems/Plus_One.cpp
         Problems/Plus_One.h
-)
+ "Problems/Pow.cpp" "Problems/Pow.h")

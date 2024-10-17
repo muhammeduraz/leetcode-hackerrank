@@ -24,6 +24,29 @@ CMakeFiles/
 *.user
 *.db
 
+# Visual Studio
+*.sdf
+*.suo
+*.user
+*.ncb
+*.aps
+*.pch
+*.idb
+*.ipch
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.manifest
+*.log
+*.tlog
+*.lastbuildstate
+*.vsidx
+*.VC.db
+*.vs
+
 # Log files
 *.log
 
