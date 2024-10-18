@@ -1,19 +1,11 @@
 #include <iostream>
 
-#include "Problems/Pow.h"
+#include "Problems/First_Missing_Positive.h"
 
 int main()
 {
-    while (true)
-    {
-        double x;
-        int n;
-
-        scanf("%lf %d", &x, &n);
-
-        double res = myPow(x, n);
-        printf("%lf", res);
-    }
+    vector<int> v{ -1,4,2,1,9,10 };
+    firstMissingPositive(v);
 
     return 0;
 }
