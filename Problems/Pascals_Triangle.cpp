@@ -2,27 +2,19 @@
 
 vector<vector<int>> generate(int numRows)
 {
-    vector<vector<int>> vec(numRows);
+    vector<vector<int>> vec;
+    vec.reserve(numRows);
 
-    for (int n = 0; n < numRows; n++)
+    for (int row = 0; row < numRows; row++)
     {
-        vector<int> v(n + 1);
+        vec.emplace_back(row + 1);
 
-        for (int l = 0; l < n + 1; l++)
+        vec[row][0] = vec[row][row] = 1;
+
+        for (int col = 1; col < row; col++)
         {
-            int val;
-
-            if (l == 0 || l == n)
-                val = 1;
-            else
-            {
-                val = vec[n - 1][l - 1] + vec[n - 1][l];
-            }
-
-            v[l] = val;
+            vec[row][col] = vec[row - 1][col - 1] + vec[row - 1][col];
         }
-
-        vec[n] = v;
     }
 
     return vec;
