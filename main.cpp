@@ -5,7 +5,9 @@
 int main()
 {
     vector<int> v{ -1,4,2,1,9,10 };
-    firstMissingPositive(v);
+    int res = firstMissingPositive(v);
+
+    std::cout << res << endl;
 
     return 0;
 }
