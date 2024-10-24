@@ -16,4 +16,4 @@ add_executable(LeetCode main.cpp
         Problems/Length_of_Last_Word.h
         Problems/Plus_One.cpp
         Problems/Plus_One.h
- "Problems/Pow.cpp" "Problems/Pow.h" "Problems/First_Missing_Positive.cpp" "Problems/First_Missing_Positive.h" "Problems/Pascals_Triangle.cpp" "Problems/Pascals_Triangle.h" "Problems/Single_Number.cpp" "Problems/Single_Number.h" "Problems/Longest_Valid_Parentheses.cpp" "Problems/Longest_Valid_Parentheses.h")
+ "Problems/Pow.cpp" "Problems/Pow.h" "Problems/First_Missing_Positive.cpp" "Problems/First_Missing_Positive.h" "Problems/Pascals_Triangle.cpp" "Problems/Pascals_Triangle.h" "Problems/Single_Number.cpp" "Problems/Single_Number.h" "Problems/Longest_Valid_Parentheses.cpp" "Problems/Longest_Valid_Parentheses.h" "Problems/Valid_Sudoku.cpp" "Problems/Valid_Sudoku.h" "Problems/Remove_Nth_Node_From_End_of_List.cpp" "Problems/Remove_Nth_Node_From_End_of_List.h")
